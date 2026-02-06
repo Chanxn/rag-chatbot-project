@@ -60,4 +60,4 @@ if os.path.exists("./chroma_db"):
                 except Exception as e:
                     st.error(f"เกิดข้อผิดพลาด: {e}")
 else:
-    st.warning("⚠️ ไม่พบฐานข้อมูล กรุณารันไฟล์ ingest.py ก่อนครับ")
+    st.warning("ไม่พบฐานข้อมูล กรุณารันไฟล์ ingest.py ก่อนครับ")
